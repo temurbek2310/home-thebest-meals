@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.woff);
+}
+
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.woff2);
+}
+
+@font-face {
+    font-family: 'Tinos', serif;
+    src: url(../fonts/Tinos-Regular.woff);
+}
+
+@font-face {
+    font-family: 'Tinos', serif;
+    src: url(../fonts/Tinos-Regular.woff2);
+}
+
+.container {
+
+    max-width: 1440px;
+    margin: 0 auto;
+
+    .hero_bg {
+        background-image: url(../images/hero_bg.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 1440px;
+        height: 800px;
+        padding: 50px;
+
+        nav {
+            display: flex;
+            align-items: center;
+
+            .logo {
+                margin-right: 270px;
+            }
+
+            .list {
+                display: flex;
+                gap: 25px;
+                list-style-type: none;
+
+                .list_link {
+                    color: #fff;
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    text-decoration: none;
+                    margin-right: 34.7px;
+                    transition: all ease 400ms;
+                }
+
+                .list_link:hover {
+                    color: #D67E35;
+                }
+            }
+
+            i {
+                color: #fff;
+                margin-right: 16px;
+                transition: all ease 400ms;
+            }
+
+            i:hover {
+                color: green;
+            }
+
+            .line {
+                width: 1px;
+                height: 51px;
+                background: #fff;
+                margin-right: 35px;
+            }
+
+            .infos {
+
+                span {
+
+                    margin-right: 50px;
+
+                    i {
+                        transition: all ease 400ms;
+                    }
+
+                    i:hover {
+                        color: red;
+                    }
+
+                    .info_tel {
+                        text-decoration: none;
+                        color: #fff;
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        transition: all ease 400ms;
+                    }
+
+                    .info_tel:hover {
+                        color: #D67E35;
+                    }
+
+
+
+                }
+
+                .info_text {
+                    color: #fff;
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 14px;
+                    width: 160px;
+                    height: 38px;
+                    font-style: normal;
+                    font-weight: 400;
+                    transition: all ease 400ms;
+                    line-height: normal;
+                }
+
+                .info_text:hover {
+                    color: aqua;
+                }
+
+
+            }
+
+            .nav_btn {
+                color: #fff;
+                border: none;
+                width: 157px;
+                height: 47px;
+                background: #FF7400;
+                font-family: 'Open Sans', sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                transition: all ease 400ms;
+            }
+
+            .nav_btn:hover {
+                background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+            }
+        }
+
+
+        .hero_wrapper {
+            margin-top: 205px;
+            margin-left: 130px;
+
+
+            .little {
+                margin-left: 30px;
+                color: #D67E35;
+                font-family: 'Tinos', serif;
+                font-size: 50px;
+                font-style: normal;
+                font-weight: 400;
+            }
+
+            .big {
+                width: 556px;
+                height: 85px;
+                color: #D67E35;
+                font-family: 'Tinos', serif;
+                font-size: 80px;
+                font-style: normal;
+                font-weight: 400;
+            }
+
+            .wrapper {
+                display: flex;
+                align-items: center;
+                margin-top: 15px;
+
+                .line2 {
+                    margin-left: 95px;
+                    margin-right: 10px;
+                    width: 61px;
+                    height: 2px;
+                    background-color: #fff;
+                }
+
+                .text {
+
+                    color: #fff;
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    margin-right: 10px;
+                }
+
+                .line3 {
+                    width: 61px;
+                    height: 2px;
+                    background-color: #fff;
+                }
+            }
+
+            .btn {
+                margin-top: 21px;
+                margin-left: 180px;
+                width: 137px;
+                height: 47px;
+                color: #fff;
+                font-family: 'Open Sans', sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                border: none;
+                background: #FF7400;
+                transition: all ease 400ms;
+            }
+
+
+            .btn:hover {
+                background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+            }
+
+        }
+        
+    }
+}

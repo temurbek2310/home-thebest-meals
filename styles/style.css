@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Open Sans", sans-serif;
+  src: url(../fonts/OpenSans-VariableFont_wdth\,wght.woff);
+}
+@font-face {
+  font-family: "Open Sans", sans-serif;
+  src: url(../fonts/OpenSans-VariableFont_wdth\,wght.woff2);
+}
+@font-face {
+  font-family: "Tinos", serif;
+  src: url(../fonts/Tinos-Regular.woff);
+}
+@font-face {
+  font-family: "Tinos", serif;
+  src: url(../fonts/Tinos-Regular.woff2);
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.container .hero_bg {
+  background-image: url(../images/hero_bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 800px;
+  padding: 50px;
+}
+.container .hero_bg nav {
+  display: flex;
+  align-items: center;
+}
+.container .hero_bg nav .logo {
+  margin-right: 270px;
+}
+.container .hero_bg nav .list {
+  display: flex;
+  gap: 25px;
+  list-style-type: none;
+}
+.container .hero_bg nav .list .list_link {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+  margin-right: 34.7px;
+  transition: all ease 400ms;
+}
+.container .hero_bg nav .list .list_link:hover {
+  color: #D67E35;
+}
+.container .hero_bg nav i {
+  color: #fff;
+  margin-right: 16px;
+  transition: all ease 400ms;
+}
+.container .hero_bg nav i:hover {
+  color: green;
+}
+.container .hero_bg nav .line {
+  width: 1px;
+  height: 51px;
+  background: #fff;
+  margin-right: 35px;
+}
+.container .hero_bg nav .infos span {
+  margin-right: 50px;
+}
+.container .hero_bg nav .infos span i {
+  transition: all ease 400ms;
+}
+.container .hero_bg nav .infos span i:hover {
+  color: red;
+}
+.container .hero_bg nav .infos span .info_tel {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  transition: all ease 400ms;
+}
+.container .hero_bg nav .infos span .info_tel:hover {
+  color: #D67E35;
+}
+.container .hero_bg nav .infos .info_text {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  width: 160px;
+  height: 38px;
+  font-style: normal;
+  font-weight: 400;
+  transition: all ease 400ms;
+  line-height: normal;
+}
+.container .hero_bg nav .infos .info_text:hover {
+  color: aqua;
+}
+.container .hero_bg nav .nav_btn {
+  color: #fff;
+  border: none;
+  width: 157px;
+  height: 47px;
+  background: #FF7400;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  transition: all ease 400ms;
+}
+.container .hero_bg nav .nav_btn:hover {
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+.container .hero_bg .hero_wrapper {
+  margin-top: 205px;
+  margin-left: 130px;
+}
+.container .hero_bg .hero_wrapper .little {
+  margin-left: 30px;
+  color: #D67E35;
+  font-family: "Tinos", serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+}
+.container .hero_bg .hero_wrapper .big {
+  width: 556px;
+  height: 85px;
+  color: #D67E35;
+  font-family: "Tinos", serif;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+}
+.container .hero_bg .hero_wrapper .wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.container .hero_bg .hero_wrapper .wrapper .line2 {
+  margin-left: 95px;
+  margin-right: 10px;
+  width: 61px;
+  height: 2px;
+  background-color: #fff;
+}
+.container .hero_bg .hero_wrapper .wrapper .text {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 10px;
+}
+.container .hero_bg .hero_wrapper .wrapper .line3 {
+  width: 61px;
+  height: 2px;
+  background-color: #fff;
+}
+.container .hero_bg .hero_wrapper .btn {
+  margin-top: 21px;
+  margin-left: 180px;
+  width: 137px;
+  height: 47px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  background: #FF7400;
+  transition: all ease 400ms;
+}
+.container .hero_bg .hero_wrapper .btn:hover {
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}/*# sourceMappingURL=style.css.map */
